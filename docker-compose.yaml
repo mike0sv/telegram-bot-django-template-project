@@ -34,7 +34,7 @@ services:
     restart: always
     environment:
      - DOCKER=true
-     - BOT_TOKEN=324463404:AAEpbtzybv2y4XOA60lOywmPXcErRCj48qw
+     - BOT_TOKEN=
      - DEALER_BOT_WEBHOOK=false
      - DEALER_BOT_WEBHOOK_PORT=8443
     command: bash -c "cd src && python manage.py start_bot "
